@@ -22,7 +22,7 @@ bc_shapefile <- st_read("../data/raw/BC-map/BC.shp")
 # Layout
 ui <- page_sidebar(
   theme = bs_theme(bootswatch = "litera"),
-  title = "BC Mental Health and Substance Use Health Services",
+  title = "BC Mental Health and Substance Use Services",
   sidebar = sidebar(
     h6("Select the type of clinic"),
     checkboxGroupInput("cat_multi",
