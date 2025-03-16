@@ -1,0 +1,10 @@
+name: BC_health
+channels:
+  - conda-forge
+dependencies:
+  - r-shiny
+  - r-ggplot2
+  - r-tidyverse
+  - r-base
+  - r-sf
+  - r-osmdata
