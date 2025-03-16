@@ -14,10 +14,10 @@ library(dplyr)
 options(shiny.port = 8060, shiny.autoreload = TRUE)
 
 # Read in csv
-df <- read.csv("data/raw/mental-health.csv")
+df <- read.csv("../data/raw/mental-health.csv")
 
 # Read in the shapefile
-bc_shapefile <- st_read("data/raw/BC-map/BC.shp")
+bc_shapefile <- st_read("../data/raw/BC-map/BC.shp")
 
 # Layout
 ui <- page_sidebar(
